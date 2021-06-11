@@ -3,7 +3,7 @@ const request = require("request"),
       fs   = require("fs"),
       path = require("path");
 
-var langdata = require('../../tesseract.js/src/constants/languages.js')
+var langdata = require('../../tesseract.js/src/common/langdata.json')
 
 function getLanguageData(req, res, cb){
     var lang = req.options.lang;
